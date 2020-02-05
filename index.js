@@ -50,6 +50,7 @@ function returnLastTwoDrivers(drivers)
  
  
  //----------
+<<<<<<< HEAD
 // const a=returnFirstTwoDrivers;
 // const a=returnLastTwoDrivers;
  function selectDifferentDrivers(arrayDr, fun ){
@@ -57,6 +58,13 @@ function returnLastTwoDrivers(drivers)
   return returnFirstTwoDrivers(arrayDr);
   if(fun===returnLastTwoDrivers)
   return returnLastTwoDrivers(arrayDr);
+=======
+ const a=returnFirstTwoDrivers;
+ const a=returnLastTwoDrivers;
+ function selectDifferentDrivers(arrayDr, function() ){
+   
+  return function(arrayDr);
+>>>>>>> fa1daddf889b8c0afa06c33767d8ac77705c16a9
  }
  selectDifferentDrivers(drivers,returnFirstTwoDrivers);
  
